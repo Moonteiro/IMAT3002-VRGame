@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3821652002
+CRC: 3324653941
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ce1df0770ab5f892ae79afa786467ff1
+    Hash: 89fad6f3f60634a833f8241cb6a87016
   TypeTreeHash:
     serializedVersion: 2
     Hash: 7201ca4b4836226d1d11dc82d03e1229
@@ -119,6 +119,7 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Scenes/MainGame.unity
 Dependencies:
+- D:/IMAT3002-VRGame/VrProjectUp/OVRAssetBundles/OVRMasterBundle/asset_fbx0
 - D:/IMAT3002-VRGame/VrProjectUp/OVRAssetBundles/OVRMasterBundle/asset_inputactions0
 - D:/IMAT3002-VRGame/VrProjectUp/OVRAssetBundles/OVRMasterBundle/asset_mat0
 - D:/IMAT3002-VRGame/VrProjectUp/OVRAssetBundles/OVRMasterBundle/asset_prefab0

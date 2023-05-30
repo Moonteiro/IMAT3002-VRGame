@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 16023669
+CRC: 2323538406
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 532777a51419e3fb25c894dd197d6c7c
+    Hash: be73fa35585839dd15b2ca038c5a09fb
   TypeTreeHash:
     serializedVersion: 2
     Hash: 82515b3694a1e5beae009c48c1198c34
@@ -17,13 +17,17 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/Hand Painted Grass  Texture/Material/Gtass_mobile.mat
 - Assets/ExampleAssets/Materials/Controller.mat
+- Assets/Lowpoly_Crates/Materials/Wood_bright.mat
 - Assets/Materials/Red.mat
 - Assets/ExampleAssets/Materials/Skybox Light.mat
 - Assets/Materials/Brown.mat
 - Assets/Darth_Artisan/Free_Trees/Meshes/Materials/No Name.mat
+- Assets/Low Poly Fruits/Materials/Material.001.mat
 - Assets/ExampleAssets/Materials/Grid.mat
 - Assets/Materials/Green.mat
+- Assets/Lowpoly_Crates/Materials/Wood_dark.mat
 - Assets/Darth_Artisan/Free_Trees/Meshes/Materials/Free_Tree.mat
 Dependencies:
 - D:/IMAT3002-VRGame/VrProjectUp/OVRAssetBundles/OVRMasterBundle/asset_png0

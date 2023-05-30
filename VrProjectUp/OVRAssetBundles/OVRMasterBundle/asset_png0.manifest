@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 412960463
+CRC: 177742652
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ba57992ecc3a691b6cbce0389d432d1e
+    Hash: 0c3cc4b779cbfa7f317420575d53424c
   TypeTreeHash:
     serializedVersion: 2
     Hash: b0363f7088f9761414f730641bf9a24b
@@ -13,6 +13,8 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/Hand Painted Grass  Texture/Texture/Grass_Base_Color.png
 - Assets/ExampleAssets/Textures/Grid_Light_512x512.png
 - Assets/Darth_Artisan/Free_Trees/Textures/tree_diffuse.png
+- Assets/Low Poly Fruits/Materials/Fruits_Texture.png
 Dependencies: []

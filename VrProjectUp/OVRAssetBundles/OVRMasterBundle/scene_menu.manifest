@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 32361001
+CRC: 2223541411
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0742cca4f21f1c8c1fb0b5b4948079b2
+    Hash: b884402696b219472efd8cdd1dfd8a3f
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 4e6cf09a38f84f538db10bbddf859d2d
+    Hash: 20c0c16bc50f90568c3d5d653419f7d2
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -89,8 +89,6 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 9b246e53798866d4a9ed900ce6b7b55b, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: fc37edf9abce86b4d9c92599a94dc43f, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: d72ac649d9625a34b93fcb167df39748, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 120
@@ -117,6 +115,7 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Scenes/Menu.unity
 Dependencies:
+- D:/IMAT3002-VRGame/VrProjectUp/OVRAssetBundles/OVRMasterBundle/asset_fbx0
 - D:/IMAT3002-VRGame/VrProjectUp/OVRAssetBundles/OVRMasterBundle/asset_inputactions0
 - D:/IMAT3002-VRGame/VrProjectUp/OVRAssetBundles/OVRMasterBundle/asset_mat0
 - D:/IMAT3002-VRGame/VrProjectUp/OVRAssetBundles/OVRMasterBundle/asset_prefab0

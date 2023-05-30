@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 4117485452
+CRC: 3337971741
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c99163d0b1ca011d89f52aaec4967a36
+    Hash: abcd99cf64dad0eaaac342979c7bce57
   TypeTreeHash:
     serializedVersion: 2
     Hash: 3b06a8d4a57a51bec9610fdfb3c473fe
@@ -28,6 +28,7 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Resources/ONSPSettings.asset
+- Assets/Low Poly Fruits/resources/Gradient.psd
 - Assets/Oculus/Interaction/Runtime/Resources/Shaders/Imposter_AlphaCutout.shader
 - Assets/Resources/OVRBuildConfig.asset
 - Assets/Oculus/Interaction/Runtime/Resources/Shaders/Imposter_AlphaToMask.shader

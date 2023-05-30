@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 4226290730
+CRC: 3563139240
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -10,15 +10,17 @@ AssetBundleManifest:
       Dependencies:
         Dependency_0: asset_ttf0
         Dependency_1: asset_inputactions0
-        Dependency_2: asset_prefab0
-        Dependency_3: asset_mat0
+        Dependency_2: asset_mat0
+        Dependency_3: asset_prefab0
+        Dependency_4: asset_fbx0
     Info_2:
       Name: scene_maingame
       Dependencies:
         Dependency_0: asset_ttf0
         Dependency_1: asset_inputactions0
-        Dependency_2: asset_prefab0
-        Dependency_3: asset_mat0
+        Dependency_2: asset_mat0
+        Dependency_3: asset_prefab0
+        Dependency_4: asset_fbx0
     Info_3:
       Name: asset_ttf0
       Dependencies: {}
@@ -26,18 +28,25 @@ AssetBundleManifest:
       Name: asset_inputactions0
       Dependencies: {}
     Info_5:
+      Name: asset_mat0
+      Dependencies:
+        Dependency_0: asset_png0
+    Info_6:
+      Name: asset_png0
+      Dependencies: {}
+    Info_7:
       Name: asset_prefab0
       Dependencies:
         Dependency_0: asset_mat0
         Dependency_1: asset_fbx0
-    Info_6:
-      Name: asset_mat0
+    Info_8:
+      Name: asset_fbx0
       Dependencies:
-        Dependency_0: asset_png0
-    Info_7:
+        Dependency_0: asset_tga0
+    Info_9:
+      Name: asset_tga0
+      Dependencies: {}
+    Info_10:
       Name: asset_fbx0
       Dependencies:
         Dependency_0: asset_mat0
-    Info_8:
-      Name: asset_png0
-      Dependencies: {}
