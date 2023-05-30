@@ -69,7 +69,7 @@ GameObject:
   - component: {fileID: 7059468608372303747}
   - component: {fileID: 2861607086210341265}
   m_Layer: 0
-  m_Name: Melon
+  m_Name: Apples
   m_TagString: Fruit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -119,7 +119,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bcf82b1aab502314fb41d07b69977c69, type: 2}
+  - {fileID: 2100000, guid: c6ec490f8d8358e4daed813c576a48bb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

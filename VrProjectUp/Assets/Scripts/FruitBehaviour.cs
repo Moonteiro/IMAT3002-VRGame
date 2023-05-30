@@ -11,37 +11,47 @@ public class FruitBehaviour : MonoBehaviour
     public float spawnDelay;
 
     private int xPos;
-    private int yPos;
     private int zPos;
 
     private Vector3 randomPos;
 
-    private float fTimer = 0f;
+    private int iManyFruitInLevel;
+
+    static public int iUIFruitPresent;
 
     // Start is called before the first frame update
     void Start()
     {
         InvokeRepeating("SpawnFruit", spawnTime, spawnDelay);
+
+        iManyFruitInLevel = Random.Range(10, 15);
+
+        iUIFruitPresent = iManyFruitInLevel;
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        Debug.Log("There are:" + iManyFruitInLevel + "in the level");
     }
 
     public void SpawnFruit()
     {
-
-        xPos = Random.Range(-5, 5);
-        yPos = 10;
-        zPos = Random.Range(-5, 5);
-        randomPos = new Vector3(xPos, yPos, zPos);
-
-        Instantiate(fruit, randomPos, transform.rotation);
-        if (stopSpawn)
+        if (iManyFruitInLevel != 0)
         {
-            CancelInvoke("SpawnFruit");
+            xPos = Random.Range(-5, 5);
+            zPos = Random.Range(-5, 5);
+            randomPos = new Vector3(xPos, 10.0f, zPos);
+
+            Instantiate(fruit, randomPos, transform.rotation);
+            if (stopSpawn)
+            {
+                CancelInvoke("SpawnFruit");
+            }
+
+            iManyFruitInLevel -= 1;
+
         }
+
     }
 }
