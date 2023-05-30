@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2632251635
+CRC: 2471436539
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a18de46acffbe9b539a29223e613bfea
+    Hash: 835ed9d18ee372d79eb20e98e29a1e69
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 8021d539ce09db0bac0f80922d3f833d
+    Hash: 37ba3209ee13303c1add9f9e49d8708e
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -22,6 +22,8 @@ ClassTypes:
 - Class: 43
   Script: {instanceID: 0}
 - Class: 54
+  Script: {instanceID: 0}
+- Class: 64
   Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
@@ -51,6 +53,7 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Prefab/Apples.prefab
 - Assets/ExampleAssets/Prefabs/XRControllerLeft.prefab
+- Assets/Darth_Artisan/Free_Trees/Prefabs/Oak_Tree.prefab
 - Assets/ExampleAssets/Prefabs/XRControllerRight.prefab
 Dependencies:
 - D:/IMAT3002-VRGame/VrProjectUp/OVRAssetBundles/OVRMasterBundle/asset_fbx0

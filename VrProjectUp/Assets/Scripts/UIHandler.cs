@@ -26,6 +26,8 @@ public class UIHandler : MonoBehaviour
 
     public void RestartMainGame()
     {
+        BasketGlobal.iFruitEnterGlobal = 0;
+
         SceneManager.LoadScene("MainGame");
     }
 

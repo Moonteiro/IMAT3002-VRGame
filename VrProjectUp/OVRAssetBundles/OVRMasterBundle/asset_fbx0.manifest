@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2490666327
+CRC: 1452005659
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 24160424938bfc5a8f4fcb2ae61f5fa4
+    Hash: 700a29be7403dd9d0914961bfc491d51
   TypeTreeHash:
     serializedVersion: 2
     Hash: fee1c6e80ce93dc43c78a279afa71396
@@ -26,5 +26,7 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/ExampleAssets/Models/XRControllerRight.fbx
+- Assets/Darth_Artisan/Free_Trees/Meshes/Oak_Tree.fbx
 - Assets/ExampleAssets/Models/XRControllerLeft.fbx
-Dependencies: []
+Dependencies:
+- D:/IMAT3002-VRGame/VrProjectUp/OVRAssetBundles/OVRMasterBundle/asset_mat0

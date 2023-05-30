@@ -41,7 +41,7 @@ public class FruitBehaviour : MonoBehaviour
         {
             xPos = Random.Range(-5, 5);
             zPos = Random.Range(-5, 5);
-            randomPos = new Vector3(xPos, 10.0f, zPos);
+            randomPos = new Vector3(xPos, 3.0f, zPos);
 
             Instantiate(fruit, randomPos, transform.rotation);
             if (stopSpawn)
@@ -50,8 +50,6 @@ public class FruitBehaviour : MonoBehaviour
             }
 
             iManyFruitInLevel -= 1;
-
-            Debug.Log("I spawned!" + iUIFruitPresent);
 
         }
 

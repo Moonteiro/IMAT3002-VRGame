@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2287183036
+CRC: 1236913191
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 020fe06e3c380c9659a62224a1ab2773
+    Hash: e6d3dc625287ac8ee89a2872d71b2dd2
   TypeTreeHash:
     serializedVersion: 2
     Hash: 5c012fee17ff0a2fbed210f63d8706e8
@@ -19,5 +19,6 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-LightItalic.ttf
 - Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-BoldItalic.ttf
 Dependencies: []
