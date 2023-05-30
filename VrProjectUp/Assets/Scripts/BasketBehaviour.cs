@@ -13,7 +13,7 @@ public class BasketBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
 
@@ -22,8 +22,6 @@ public class BasketBehaviour : MonoBehaviour
         
         if (other.tag == "Fruit")
         {
-
-            Debug.Log("One fruit in");
 
             BasketGlobal.iFruitEnterGlobal += 1;
 

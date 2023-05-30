@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class BasketGlobal : MonoBehaviour
@@ -18,7 +19,11 @@ public class BasketGlobal : MonoBehaviour
     {
         iFruitEnter = iFruitEnterGlobal;
 
-        //Ui aspects
+        if (iFruitEnterGlobal == FruitBehaviour.iUIFruitPresent)
+        {
+            SceneManager.LoadScene("MainGame");
+        }
+
     }
 
 

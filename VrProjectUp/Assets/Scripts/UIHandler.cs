@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class UIHandler : MonoBehaviour
@@ -20,12 +21,12 @@ public class UIHandler : MonoBehaviour
 
     public void LoadMenu()
     {
-        Application.LoadLevel("Menu");
+        SceneManager.LoadScene("Menu");
     }
 
     public void RestartMainGame()
     {
-        Application.LoadLevel("MainGame");
+        SceneManager.LoadScene("MainGame");
     }
 
     void Start()
@@ -37,9 +38,9 @@ public class UIHandler : MonoBehaviour
 
     void Update()
     {
-        scoreText.text = BasketGlobal.iFruitEnterGlobal.ToString();
+        scoreText.text = "Score:" + BasketGlobal.iFruitEnterGlobal.ToString() + "/" + FruitBehaviour.iUIFruitPresent;
 
-        TimerText.text = iTimeLeft.ToString();
+        TimerText.text = "Time left: " + iTimeLeft.ToString();
 
 
         if(TimerActive)

@@ -37,7 +37,7 @@ public class FruitBehaviour : MonoBehaviour
 
     public void SpawnFruit()
     {
-        if (iManyFruitInLevel != 0)
+        if (iManyFruitInLevel != 0 && iUIFruitPresent == iUIFruitPresent)
         {
             xPos = Random.Range(-5, 5);
             zPos = Random.Range(-5, 5);
@@ -50,6 +50,8 @@ public class FruitBehaviour : MonoBehaviour
             }
 
             iManyFruitInLevel -= 1;
+
+            Debug.Log("I spawned!" + iUIFruitPresent);
 
         }
 
