@@ -32,7 +32,7 @@ public class FruitBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("There are:" + iManyFruitInLevel + "in the level");
+
     }
 
     public void SpawnFruit()
