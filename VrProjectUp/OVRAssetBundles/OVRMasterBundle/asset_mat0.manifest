@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3374146009
+CRC: 3166845988
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 31a0effca581ac3940ec95fe92cea64f
+    Hash: 496c10b2ef7b16e57d80b90bfb4b913c
   TypeTreeHash:
     serializedVersion: 2
     Hash: 82515b3694a1e5beae009c48c1198c34
@@ -20,6 +20,8 @@ Assets:
 - Assets/ExampleAssets/Materials/Controller.mat
 - Assets/Materials/Red.mat
 - Assets/ExampleAssets/Materials/Skybox Light.mat
+- Assets/Materials/Brown.mat
 - Assets/ExampleAssets/Materials/Grid.mat
+- Assets/Materials/Green.mat
 Dependencies:
 - D:/IMAT3002-VRGame/VrProjectUp/OVRAssetBundles/OVRMasterBundle/asset_png0

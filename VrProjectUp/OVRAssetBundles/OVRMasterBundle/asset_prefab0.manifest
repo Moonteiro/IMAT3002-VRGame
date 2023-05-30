@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 188110895
+CRC: 1903497243
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d324e2daf99412c70735136738d44787
+    Hash: 0ffe1ad78ab4c46217645fb4c5ab2237
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 71fae6ce9612b55492988b7c6597434c
+    Hash: ad29ace5dd2beb3b4352bdf164fbb2d4
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -21,8 +21,13 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 43
   Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/Prefab/Melon.prefab
 - Assets/ExampleAssets/Prefabs/XRControllerLeft.prefab
 - Assets/ExampleAssets/Prefabs/XRControllerRight.prefab
 Dependencies:
