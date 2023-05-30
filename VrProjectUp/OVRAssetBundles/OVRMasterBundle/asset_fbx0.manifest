@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 2490666327
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 24160424938bfc5a8f4fcb2ae61f5fa4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fee1c6e80ce93dc43c78a279afa71396
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ExampleAssets/Models/XRControllerRight.fbx
+- Assets/ExampleAssets/Models/XRControllerLeft.fbx
+Dependencies: []

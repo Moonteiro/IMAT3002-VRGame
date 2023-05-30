@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 3499322430
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b72f54e903753b7189fc87e0bf721900
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 82515b3694a1e5beae009c48c1198c34
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ExampleAssets/Materials/Controller.mat
+- Assets/ExampleAssets/Materials/Skybox Light.mat
+- Assets/ExampleAssets/Materials/Grid.mat
+Dependencies:
+- D:/IMAT3002-VRGame/VrProjectUp/OVRAssetBundles/OVRMasterBundle/asset_png0
