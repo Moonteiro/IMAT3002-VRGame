@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3499322430
+CRC: 3374146009
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: b72f54e903753b7189fc87e0bf721900
+    Hash: 31a0effca581ac3940ec95fe92cea64f
   TypeTreeHash:
     serializedVersion: 2
     Hash: 82515b3694a1e5beae009c48c1198c34
@@ -18,6 +18,7 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/ExampleAssets/Materials/Controller.mat
+- Assets/Materials/Red.mat
 - Assets/ExampleAssets/Materials/Skybox Light.mat
 - Assets/ExampleAssets/Materials/Grid.mat
 Dependencies:

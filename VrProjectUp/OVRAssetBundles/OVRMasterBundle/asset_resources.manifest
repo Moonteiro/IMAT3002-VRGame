@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2001604344
+CRC: 4117485452
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 706d6ab321eb964d6009ae8ce78fc5a2
+    Hash: c99163d0b1ca011d89f52aaec4967a36
   TypeTreeHash:
     serializedVersion: 2
-    Hash: cccc03a529390c73d685a3ab5984602b
+    Hash: 3b06a8d4a57a51bec9610fdfb3c473fe
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -15,6 +15,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 49
   Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ad074644ff568a14187a3690cfbd7534, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 690929a59dc7a42da9030305190d391f, type: 3}
 - Class: 114
@@ -25,6 +27,7 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/Resources/ONSPSettings.asset
 - Assets/Oculus/Interaction/Runtime/Resources/Shaders/Imposter_AlphaCutout.shader
 - Assets/Resources/OVRBuildConfig.asset
 - Assets/Oculus/Interaction/Runtime/Resources/Shaders/Imposter_AlphaToMask.shader
