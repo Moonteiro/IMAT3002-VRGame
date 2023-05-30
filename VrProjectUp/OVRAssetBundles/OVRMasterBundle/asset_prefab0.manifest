@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2144756536
+CRC: 2632251635
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: eb28eb85ef6e3a6b8430990d5ff16c58
+    Hash: a18de46acffbe9b539a29223e613bfea
   TypeTreeHash:
     serializedVersion: 2
     Hash: 8021d539ce09db0bac0f80922d3f833d
@@ -49,7 +49,7 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: UnityEngine.CoreModule
   ClassName: UnityEngine.Events.PersistentCallGroup
 Assets:
-- Assets/Prefab/Melon.prefab
+- Assets/Prefab/Apples.prefab
 - Assets/ExampleAssets/Prefabs/XRControllerLeft.prefab
 - Assets/ExampleAssets/Prefabs/XRControllerRight.prefab
 Dependencies:
