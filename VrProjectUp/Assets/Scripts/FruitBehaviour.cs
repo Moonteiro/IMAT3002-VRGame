@@ -39,8 +39,8 @@ public class FruitBehaviour : MonoBehaviour
     {
         if (iManyFruitInLevel != 0 && iUIFruitPresent == iUIFruitPresent)
         {
-            xPos = Random.Range(-5, 5);
-            zPos = Random.Range(-5, 5);
+            xPos = Random.Range(-9, 9);
+            zPos = Random.Range(-9, 9);
             randomPos = new Vector3(xPos, 3.0f, zPos);
 
             Instantiate(fruit, randomPos, transform.rotation);

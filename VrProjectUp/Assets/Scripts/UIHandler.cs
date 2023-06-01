@@ -55,6 +55,10 @@ public class UIHandler : MonoBehaviour
             {
                 fTimeLeft = 0;
                 TimerActive = false;
+
+                BasketGlobal.iFruitEnterGlobal = 0;
+
+                SceneManager.LoadScene("Menu");
             }
 
             iTimeLeft = Mathf.RoundToInt(fTimeLeft);

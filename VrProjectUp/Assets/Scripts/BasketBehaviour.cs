@@ -25,7 +25,7 @@ public class BasketBehaviour : MonoBehaviour
 
             BasketGlobal.iFruitEnterGlobal += 1;
 
-            Destroy(other, 1f);
+            Destroy(other, 0.2f);
 
         }
 

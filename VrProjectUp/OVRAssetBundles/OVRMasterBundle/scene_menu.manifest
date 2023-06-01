@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2223541411
+CRC: 3299377198
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: b884402696b219472efd8cdd1dfd8a3f
+    Hash: 1f2196e165dd45977074b6016d3e7376
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 20c0c16bc50f90568c3d5d653419f7d2
+    Hash: 3931fc38aea12f3efbd98cb370e61038
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -34,6 +34,8 @@ ClassTypes:
 - Class: 65
   Script: {instanceID: 0}
 - Class: 81
+  Script: {instanceID: 0}
+- Class: 89
   Script: {instanceID: 0}
 - Class: 104
   Script: {instanceID: 0}
@@ -72,6 +74,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: a2483b9bd782f9449a5972b61b7d51a9, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: fc37edf9abce86b4d9c92599a94dc43f, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 017c5e3933235514c9520e1dace2a4b2, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
@@ -83,12 +87,6 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 0bf296fc962d7184ab14ad1841598d5f, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 9f466208391496b43ba9e432dba818c4, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 9b246e53798866d4a9ed900ce6b7b55b, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: fc37edf9abce86b4d9c92599a94dc43f, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 120
@@ -115,7 +113,6 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Scenes/Menu.unity
 Dependencies:
-- D:/IMAT3002-VRGame/VrProjectUp/OVRAssetBundles/OVRMasterBundle/asset_fbx0
 - D:/IMAT3002-VRGame/VrProjectUp/OVRAssetBundles/OVRMasterBundle/asset_inputactions0
 - D:/IMAT3002-VRGame/VrProjectUp/OVRAssetBundles/OVRMasterBundle/asset_mat0
 - D:/IMAT3002-VRGame/VrProjectUp/OVRAssetBundles/OVRMasterBundle/asset_prefab0

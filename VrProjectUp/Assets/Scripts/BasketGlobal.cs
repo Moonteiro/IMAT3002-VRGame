@@ -21,7 +21,11 @@ public class BasketGlobal : MonoBehaviour
 
         if (iFruitEnterGlobal == FruitBehaviour.iUIFruitPresent)
         {
-            SceneManager.LoadScene("MainGame");
+            SceneManager.LoadScene("Menu");
+
+            iFruitEnterGlobal = 0;
+
+
         }
 
     }

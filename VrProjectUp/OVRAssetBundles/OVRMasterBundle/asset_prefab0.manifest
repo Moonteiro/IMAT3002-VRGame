@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1775539058
+CRC: 2421380948
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 279b2342a4c5bd869b9307b32c634b88
+    Hash: 186c317eeee56b02bd09a0125e62a9ab
   TypeTreeHash:
     serializedVersion: 2
     Hash: 37ba3209ee13303c1add9f9e49d8708e
@@ -52,7 +52,6 @@ SerializeReferenceClassIdentifiers:
   ClassName: UnityEngine.Events.PersistentCallGroup
 Assets:
 - Assets/Prefab/Apples.prefab
-- Assets/Low Poly Fruits/Prefabs/apple.prefab
 - Assets/ExampleAssets/Prefabs/XRControllerLeft.prefab
 - Assets/Darth_Artisan/Free_Trees/Prefabs/Oak_Tree.prefab
 - Assets/ExampleAssets/Prefabs/XRControllerRight.prefab
